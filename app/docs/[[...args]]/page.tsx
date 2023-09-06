@@ -1,7 +1,7 @@
-import { defaultMaxListeners } from 'events';
+import styles from './style.module.css';
 
 const DocsPage = ({ params }) => {
-  return <div> content dynamic docs here </div>;
+  return <div className={styles.title}> content dynamic docs here </div>;
 };
 
 export default DocsPage;
