@@ -7,6 +7,7 @@ const getData = async () => {
 };
 
 const TodosPage = async () => {
+  // await new Promise((res, rej) => setTimeout(() => res(''), 2000));
   const todos = await getData();
   return (
     <div>
